@@ -48,7 +48,7 @@
 # fruits.sort(reverse=True)
 # print(fruits)
 
-marks=[43,54,65,33]
+# marks=[43,54,65,33]
 # marks.reverse()
 # print(marks)
 
@@ -58,5 +58,45 @@ marks=[43,54,65,33]
 # marks.remove(33)
 # print(marks)
 
-marks.pop(0)
-print(marks)
+# marks.pop(0)
+# print(marks)
+
+# mov=[]
+# mov1=input(" enter yor first fav movie.")
+
+# mov2=input(" enter yor second fav movie.")
+
+# mov3=input(" enter yor third fav movie.")
+
+# mov.append(mov1)
+# mov.append(mov2)
+# mov.append(mov3)
+
+# print(mov)
+
+# list=[1,2,3,2,1]
+
+# list1=list.copy()
+# list1.reverse()
+
+# if(list1==list):
+#     print("palindrom")
+# else:
+#    print ("not palindrome")
+
+# list=['a','b','a']
+# copy_list=list.copy()
+# copy_list.reverse()
+
+# if(list==copy_list):
+#     print(" list is palindrome.")
+# else:
+#     print(" list isn't a palindrome.")
+
+list=['C','D','A','A','B','B','A']
+# print(list.count('A'))
+list.sort()
+print(list)
+
+
+
