@@ -75,15 +75,41 @@
 # print(student.get(" name "))
 
 
-student = {
-    " name " : " ali ",
-    " subjects "  : {
-        "chem"  :  842,
-        "bio"  : 785,
-        "math"  : 237,
-    }
-}
-print(student.update({"city":"muy"}))
-print(student)
+# student = {
+#     " name " : " ali ",
+#     " subjects "  : {
+#         "chem"  :  842,
+#         "bio"  : 785,
+#         "math"  : 237,
+#     }
+# }
+# print(student.update({"city":"muy"}))
+# print(student)
 
+# dict={
+#     "cat"  : " a small animal",
+#     "table" : ["a piece of the furniture", "list of the facts and figures"]
+# }
+
+# print(dict)
+
+# dict={
+#     "java","pyhton","java","c","javascripts",
+#       "c++","c++","java",
+# }
+
+# print(dict)
+# print(len(dict))
+
+marks={}
+x=int(input("enter the phy marks :"))
+marks.update({"phy :" : x})
+
+x=int(input("enter the che marks :"))
+marks.update({"che :":x})
+
+x=int(input("enter the bio marks :"))
+marks.update({"bio :":x})
+
+print(marks)
 
