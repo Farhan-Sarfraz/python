@@ -7,10 +7,10 @@
 
 # write a program to input 2 floats and put averg
 
-first=float(input("first nmbr is :"))
-second=float(input("second nmbr is :"))
-avrg=(first+second)/2
-print(" Average is :",avrg)
+# first=float(input("first nmbr is :"))
+# second=float(input("second nmbr is :"))
+# avrg=(first+second)/2
+# print(" Average is :",avrg)
 # a=int(input(" number a is :"))
 # b=int(input(" number b is :"))
 # print(" Sum :",a+b)
@@ -71,3 +71,37 @@ print(" Average is :",avrg)
 # input
 # name=input("enter your name :")
 # print(type(name),name)
+
+# name = "ali"
+# roll = 11
+# marks= 9.9
+# print(name)
+# print(roll)
+# print(marks)
+# print("everything is clear.")
+# print(type(name))
+# print(type(roll))
+# print(type(marks))
+
+# a = 2
+# b = 3
+
+# val = a**b
+# print(val)
+
+# a = int(input(" val of a "))
+
+# area =  a * a
+
+# print(area)
+
+
+a = float(input("enter first val : "))
+b = float(input("enter sec val : "))
+
+sum= a + b
+
+avr= sum/2
+
+print(sum)
+print(avr)
