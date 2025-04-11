@@ -90,3 +90,25 @@
 
 # # Test
 # print(find_max([3, 7, 2, 9, 5]))  # Output: 9
+
+# val = [2,3,4,5,6,7,8]
+# def print_len(list):
+#     print(len(list))
+# print_len(val)
+
+# val = [2,3,4,5,6,7,8]
+
+# def print_list(list):
+#     for item in list:
+#         print(item,end=" ")
+# print_list(val)
+
+def checking(n):
+    if n%2 == 0:
+        print("number is even.")
+    else:
+        print("number is odd.")
+
+n = int(input("enter the number :"))
+ans = checking(n)
+print(ans)
