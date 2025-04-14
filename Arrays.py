@@ -163,18 +163,134 @@
 # print("Balance:", account.get_balance())
 
 
-from datetime import datetime
+# from datetime import datetime
 
-date1 = datetime.strptime("2025-01-01", "%Y-%m-%d")
-date2 = datetime.strptime("2025-01-15", "%Y-%m-%d")
-delta = date2 - date1
-print("Difference:", delta.days, "days")
+# date1 = datetime.strptime("2025-01-01", "%Y-%m-%d")
+# date2 = datetime.strptime("2025-01-15", "%Y-%m-%d")
+# delta = date2 - date1
+# print("Difference:", delta.days, "days")
 
-import json
+# import json
 
-data = {"name": "Alice", "age": 20, "grade": "A"}
-json_data = json.dumps(data)
-python_data = json.loads(json_data)
-print("Name:", python_data["name"])
-print("Age:", python_data["age"])
-print("Grade:", python_data["grade"])
+# data = {"name": "Alice", "age": 20, "grade": "A"}
+# json_data = json.dumps(data)
+# python_data = json.loads(json_data)
+# print("Name:", python_data["name"])
+# print("Age:", python_data["age"])
+# print("Grade:", python_data["grade"])
+
+# arr = [10, 20, 30, 40, 50]
+
+# print(arr[-1])
+# print(arr[3])
+# print(arr[1])
+# arr[2] = 33
+# #  modify elemnts
+# print(arr)
+
+
+# arr = [2,3,4,5,6]
+
+# arr.append(9)
+
+# print(arr)
+
+# arr = [2,3,4,5,6]
+
+# arr.insert(2,99)
+
+# print(arr)
+
+# arr = [2,3,4,5,6]
+
+# arr.remove(arr[2])
+
+# print(arr)
+
+# arr = [2,3,4,5,6]
+
+# arr.pop()
+
+# print(arr)
+
+# arr = [2,3,4,5,6]
+
+# print(len(arr))
+
+# arr = [2,3,4,5,6]
+
+# for num in arr:
+#     print(num)
+
+# arr = [2,3,4,5,6]
+
+# print(arr[0:4])
+
+# print(arr[1])
+
+# print(arr[-1])
+
+# print(arr[:3])
+
+# arr = [5, 2, 9, 1, 7]
+# print(sorted(arr))     # [1, 2, 5, 7, 9]
+# print(max(arr))        # 9
+# print(min(arr))        # 1
+# print(sum(arr))        # 24
+
+# arr=[]
+# for i in range(5):
+#     num=int(input(f"enter the number {i:1} : "))
+#     arr.append(num)
+# print("array is :",arr)
+
+# arr  = [3,4,5,6]
+
+# sum = 0
+
+# for i in arr:
+#     sum = sum + i
+#     print("sum is:",sum)
+
+# arr = [2,1,8,3,7,5]
+# max_num=arr[0]
+# for num in arr:
+#     if num > max_num:
+#         max_num = num
+    
+# print("maximum number is :",max_num)
+    
+
+
+# arr = [435,5,74,23,423,764,874,321,321]
+
+# Mini_num = arr[0]
+
+# for num in arr:
+#     if num < Mini_num:
+#         Mini_num = num
+
+# print("Minimum number is :" , Mini_num)
+
+# arr = [2,3,4,5,6,7,8,9]
+
+# for num in arr:
+#     if(num%2 == 0):
+#         print(num)
+#         num = num + 1
+
+# arr = [1,3,6,7,8,9,0,0,0,-7,-3]
+
+# po = ne = zero = 0
+
+# for num in arr:
+#     if(num > 0  ):
+#         po += 1
+#     elif(num == 0):
+#         zero += 1
+#     elif(num < 0):
+#         ne += 1
+# print(po)
+# print(ne)
+# print(zero)
+
