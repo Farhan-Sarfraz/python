@@ -100,16 +100,83 @@
 # print(stack.is_empty()) 
 # print(stack.is_full())
 
-def largest_rectangle_area(heights):
-    stack = []
-    max_area = 0
-    heights.append(0)
-    for i in range(len(heights)):
-        while stack and heights[i] < heights[stack[-1]]:
-            height = heights[stack.pop()]
-            width = i if not stack else i - stack[-1] - 1
-            max_area = max(max_area, height * width)
-        stack.append(i)
-    return max_area
+# def largest_rectangle_area(heights):
+#     stack = []
+#     max_area = 0
+#     heights.append(0)
+#     for i in range(len(heights)):
+#         while stack and heights[i] < heights[stack[-1]]:
+#             height = heights[stack.pop()]
+#             width = i if not stack else i - stack[-1] - 1
+#             max_area = max(max_area, height * width)
+#         stack.append(i)
+#     return max_area
 
-print(largest_rectangle_area([2, 1, 5, 6, 2, 3]))
+# print(largest_rectangle_area([2, 1, 5, 6, 2, 3]))
+
+class Stack:
+    def __init__(self):
+        self.stack = [] 
+
+    def push(self, item):
+        # """Add item to the top of the stack"""
+        self.stack.append(item)
+        print(f"Pushed: {item}")
+
+    def pop(self):
+        # """Remove and return the top item"""
+        if self.is_empty():
+            return "Stack Underflow"
+        return self.stack.pop()
+
+    def peek(self):
+        # """Return the top item without removing it"""
+        if self.is_empty():
+            return "Stack is empty"
+        return self.stack[-1]
+
+    def is_empty(self):
+        # """Check if stack is empty"""
+        return len(self.stack) == 0
+
+    def display(self):
+        # """Display stack from top to bottom"""
+        if self.is_empty():
+            print("Stack is empty")
+        else:
+            print("Stack (top to bottom):", self.stack[::-1])
+
+s = Stack()
+s.push(10)
+s.push(20)
+s.push(30)
+s.display()
+
+print("Top Element:", s.peek())
+print("Popped:", s.pop())
+s.display()
+print("Is Stack Empty?", s.is_empty())
+
+
+def evaluate_postfix(expression):
+    stack = []
+    for token in expression.split():
+        if token.isdigit():  # Operand
+            stack.append(int(token))
+        else:  # Operator
+            b = stack.pop()
+            a = stack.pop()
+            if token == '+': stack.append(a + b)
+            elif token == '-': stack.append(a - b)
+            elif token == '*': stack.append(a * b)
+            elif token == '/': stack.append(a / b)
+            else: 
+                return "Unknown operator"
+
+    return stack[0] if stack else "Invalid Expression"
+
+# ----------- Usage -----------
+expr = "5 1 2 + 4 * + 3 -"
+result = evaluate_postfix(expr)
+print(f"Postfix: {expr}")
+print(f"Result: {result}")
