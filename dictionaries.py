@@ -101,15 +101,28 @@
 # print(dict)
 # print(len(dict))
 
-marks={}
-x=int(input("enter the phy marks :"))
-marks.update({"phy :" : x})
+# marks={}
+# x=int(input("enter the phy marks :"))
+# marks.update({"phy :" : x})
 
-x=int(input("enter the che marks :"))
-marks.update({"che :":x})
+# x=int(input("enter the che marks :"))
+# marks.update({"che :":x})
 
-x=int(input("enter the bio marks :"))
-marks.update({"bio :":x})
+# x=int(input("enter the bio marks :"))
+# marks.update({"bio :":x})
 
-print(marks)
+# print(marks)
 
+student = {
+    "name" : "ali",
+    "roll" : 9,
+    "subj" : {
+        "math" : 77,
+        "eng" : 73,
+    }
+    
+}
+
+# print(student["subj"]["eng"])
+# print(type(student))
+print(student.values())

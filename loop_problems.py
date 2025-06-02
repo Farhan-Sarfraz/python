@@ -120,15 +120,15 @@
 #     else:
 #         print("it's prime number. ")
 
-items = ["banana","mango","orange","apple","banana"]
+# items = ["banana","mango","orange","apple","banana"]
 
-unique_item = set()
+# unique_item = set()
 
-for item in items:
-    if item in  unique_item:
-        print("duplicate ",item)
-        break
-    unique_item.add(item)
+# for item in items:
+#     if item in  unique_item:
+#         print("duplicate ",item)
+#         break
+#     unique_item.add(item)
 
 # import time
 
@@ -139,4 +139,21 @@ for item in items:
 #     print(f"Attempt {attempt}: waiting for {wait_time} seconds...")
 #     time.sleep(wait_time)  
 #     wait_time *= 2         
+
+
+# i = 1
+
+# while i < 11:
+#     print(i)
+#     i += 1
+
+# sum = 0
+# i = 1
+# while i <= 50:
+#     if i % 2 == 0:
+#          sum = sum + i
+#     i += 1
+
+# print(sum)
+
 

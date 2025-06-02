@@ -106,3 +106,11 @@
 # # Loop through dictionary
 # for key, value in student.items():
 #     print(key, ":", value)
+
+grades=[]
+
+for i in range(5):
+    grade=float(input(f"enter the course num{i+1} "))
+    grades.append(grade)
+    gpa=sum(grades)/len(grades)
+    print("gpa is :",gpa)

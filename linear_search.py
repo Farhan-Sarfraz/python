@@ -20,9 +20,7 @@
 #     return -1
 
 # print(searching(arr,tar))
-    
-
-arr = [1,2,3,4,5,6,7,8,9]
+rr = [1,2,3,4,5,6,7,8,9]
 target = int(input("enter the target element : "))
 
 def ordered_searching(arr,target):
@@ -35,4 +33,6 @@ def ordered_searching(arr,target):
     return -1
 
 value = ordered_searching(arr,target)
-print(value)
+print(value)    
+
+a

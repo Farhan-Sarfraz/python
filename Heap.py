@@ -44,7 +44,6 @@
 #     priority, tsk = heapq.heappop(task)
 #     print(f"priority {priority} -> {task}")
 
-
 class MinHeap:
     def __init__(self):
         self.heap = []

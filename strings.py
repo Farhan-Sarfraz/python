@@ -41,5 +41,15 @@
 # name=input("enter your name :")
 # print("len of your name is :",len(name))
 
-str="hi $ rate is in $ :"
-print(str.count("$"))
+# str="hi $ rate is in $ :"
+# print(str.count("$"))
+
+# str = ("this is first program ")
+
+# ch = str[1:9]
+
+# print(ch)
+
+str = ("this is string topic")
+
+print(str.endswith("ic"))

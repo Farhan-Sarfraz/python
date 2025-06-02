@@ -37,19 +37,20 @@
 # else:
 #     print("False")
 
-m = [1,2,3]
-n = m 
+# m = [1,2,3]
+# n = m 
 
-print(m)
-print(n)
+# print(m)
+# print(n)
 
-n = [1,2,3]
+# n = [1,2,3]
 
-if(m == n):
-    print("true")
-else:
-    print("false")
-if(m is n):
-    print("true")
-else:
-    print("false")
+# if(m == n):
+#     print("true")
+# else:
+#     print("false")
+# if(m is n):
+#     print("true")
+# else:
+#     print("false")
+

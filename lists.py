@@ -93,10 +93,25 @@
 # else:
 #     print(" list isn't a palindrome.")
 
-list=['C','D','A','A','B','B','A']
-# print(list.count('A'))
-list.sort()
-print(list)
+# list=['C','D','A','A','B','B','A']
+# # print(list.count('A'))
+# list.sort()
+# print(list)
 
+# val = [33,55,66,88,43]
 
+# val.insert(1,41)
 
+# print(val)
+
+movies = []
+
+mov1 = input("enter movie : ")
+mov2 = input("enter movie : ")
+mov3 = input("enter movie : ")
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+
+print(movies)
