@@ -56,8 +56,80 @@
 # else:
 #     print(" n3 is greatest of three number.")
 
-n =int(input("enter  num."))
-if(n%7 == 0):
-    print("yes it is multiple.")
+# n =int(input("enter  num."))
+# if(n%7 == 0):
+#     print("yes it is multiple.")
+# else:
+#     print("it is not.")
+
+
+# num = int(input("enter the num: "))
+
+# if num % 2 == 0:
+#     print("even number it is.")
+# else:
+#     print("odd number.")
+
+# height = int(input("enter height : "))
+# age = int(input("enter age :"))
+
+# if height >= 120:
+#     print("you are allowed to ride.")
+#     if age > 18:
+#         print("ticket price is 10$.")
+#     else:
+#         print('ticket price is 5$')
+# else:
+#     print("you are't allowed to ride.")
+
+# weight = float(input("enter your weight :"))
+# height = float(input("enter your height :"))
+
+# bmi = round(weight/height**2)
+# if bmi < 18.5:
+#     print(f"you are bmi is {bmi} , you are  underweight.")
+# elif bmi < 25:
+#     print(f"you are bmi is {bmi} , you are  nomalweight.")
+# elif bmi < 30:
+#     print(f"you are bmi is {bmi} , you are  overweight.")
+# elif bmi < 35:
+#     print(f"you are bmi is {bmi} , you are obese.")
+# else:
+#     print(f"you are bmi is {bmi} , you'r clinically obese.")
+
+
+
+# year = int(input("enter the year do you want to check :"))
+
+# if (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)):
+#     print("it's a leap year. ")
+# else:
+#     print("it's not a leap year. ")
+    
+name1 = input("what is  your name.").lower()
+name2 = input("what's their  name.").lower()
+
+comb_name = name1 + name2
+
+t = comb_name.count("t")
+r = comb_name.count("r")
+u = comb_name.count("u")
+e = comb_name.count("e")
+
+l = comb_name.count("l")
+o = comb_name.count("o")
+v = comb_name.count("v")
+e2 = comb_name.count("e")
+
+true = t + r + u + e
+love = l + o + v + e2
+
+score = int(str(true) + str(love))
+print(f"\nYour love score is: {score}%")
+
+if score > 80:
+    print("You are a perfect match! ")
+elif score > 50:
+    print("You both have a good connection. ")
 else:
-    print("it is not.")
+    print("You might need to work on your relationship.")
