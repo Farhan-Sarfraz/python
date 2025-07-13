@@ -131,11 +131,70 @@
 #     sum+=i
 #     print(sum)
 
-n = 5
-fact = 1 
-i = 1 
-while i <= n :
-    fact *= i
-    i += 1
+# n = 5
+# fact = 1 
+# i = 1 
+# while i <= n :
+#     fact *= i
+#     i += 1
 
-    print(" fac of num  is  :", fact )
+#     print(" fac of num  is  :", fact )
+
+# students_height = input("enter the height of the students(seprated by the spaces). ")
+
+# heights = students_height.split()
+
+# for i in range(len(heights)):
+#     heights[i] = int(heights[i])
+
+# sumof_heights = 0
+# for h in heights:
+#     sumof_heights += h
+# total_students = 0
+# for s in heights:
+#     total_students += 1
+# avg_height = (sumof_heights/total_students)
+
+# print(avg_height)
+
+# students_marks = input("enter the number(seprated by spaces) of studensts.")
+# student_nums = students_marks.split()
+# for i in range(len(student_nums)):
+#     student_nums[i] = int(student_nums[i])
+# highest = student_nums[0]
+# for n in student_nums:
+#     if n > highest:
+#         highest = n
+# print(f"my highest score is: {highest}")
+# number = 0
+# for n in range(1,101):
+#     number += n
+
+# print(number)
+
+# sum = 0
+
+# for n in range(1, 101 ):
+#     if n % 2 == 0:
+#         sum += n
+
+# print(sum)
+# sum1 = 0
+# for n in range(1, 101 ):
+#     if n % 2 != 0:
+#         sum1 += n
+# print(sum1)
+    
+# for n in range(1, 101):
+#     if n % 3 == 0 and n % 5 == 0:
+#         print("fizzbuzz")
+#     elif n % 3 == 0:
+#         print("fizz")
+#     elif n % 5 == 0:
+#         print("buzz")
+#     else:
+#         print(n)
+
+value = int(input("enter the number. "))
+for n in range(1, 11):
+    print(str(value) + " x " + str(n) +  " = "  + str(value * n))
