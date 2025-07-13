@@ -116,8 +116,8 @@
 
 # print(movies)
 
-# names_string = input("give me the name sepereted by the comma. ")
+names_string = input("give me the name sepereted by the comma. ")
 
-# names  = names_string.split(", ")
+names  = names_string.split(", ")
 
-# print(names)
+print(names)
