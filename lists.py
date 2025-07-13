@@ -104,14 +104,20 @@
 
 # print(val)
 
-movies = []
+# movies = []
 
-mov1 = input("enter movie : ")
-mov2 = input("enter movie : ")
-mov3 = input("enter movie : ")
+# mov1 = input("enter movie : ")
+# mov2 = input("enter movie : ")
+# mov3 = input("enter movie : ")
 
-movies.append(mov1)
-movies.append(mov2)
-movies.append(mov3)
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
 
-print(movies)
+# print(movies)
+
+# names_string = input("give me the name sepereted by the comma. ")
+
+# names  = names_string.split(", ")
+
+# print(names)
