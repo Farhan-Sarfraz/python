@@ -148,5 +148,62 @@
 #     print(key)
 #     print(dictionaries[key])
 
+# student__marks = {
+#     "ali" : 93,
+#     "usman" : 89,
+#     "haider" : 56,
+#     "abu bakar" : 78,
+#     "naveen" : 82,
+#     "sharoon" : 99,
+#     "naveed" : 45,
 
+# }
+# students_grades ={}
+# for student in student__marks:
+#     score = student__marks[student]
+#     if score > 90:
+#         students_grades[student] = "outstandings. "
+#     elif score > 80:
+#         students_grades[student] = "Exceeds Expectations. "
+#     elif score > 70:
+#         students_grades[student] = "good. "
+#     else: 
+#         students_grades[student] = "fail. "
+# print(students_grades)
 
+# capitals = {
+#     "pakistan" : "islamabad",
+#     "india" : "mumbai",
+#     "france" : "paris",
+# } 
+# visited_places = {
+#     "pakistan" : ["islamabad","karachi","multan"],
+#     "india" : {"dharmshala" : ["park","resturent","hotels"]}
+# } 
+
+# print(capitals.items())
+# print(visited_places.items())
+
+travel_logs = [
+    {
+        "country" : "france",
+        "times" : 5,
+        "places" : ["berlin","city"]
+    },
+     {
+        "country" : "pakistan",
+        "times" : 3,
+        "places" : ["peshawar","okara","pindi"]
+    },
+]
+
+def add_new_country(visited_country, visited_times, visited_city):
+    new_country = {}
+    new_country["country"] = visited_country
+    new_country["times"] = visited_times
+    new_country["places"] = visited_city
+    
+    travel_logs.append(new_country)
+
+add_new_country("russia" , 2 , ["moscow","park"])
+print(travel_logs)
