@@ -29,8 +29,30 @@
 
 # print(tup.count(1))
 
-tup=('C','D','A','A','B','B','A')
+# tup=('C','D','A','A','B','B','A')
 
-pro=tup.count('A')
+# pro=tup.count('A')
 
-print(pro)
+# print(pro)
+
+# num = (5, )
+# num2 = (5)
+# print(type(num))
+# print(type(num2))
+
+num = (7,2,4,0,2,6,9)
+# print(num.count(8))
+# print(8 in num)
+# print(5 in num)
+# print(num)
+# for n in num:
+#     print(n)
+# num4 = (78, )
+# print(num + num4)
+print(sum(num))
+print(max(num))
+print(sorted(num))
+print(reversed(num))
+
+val = (1,2,3,4,5)
+print(val[ :: -1])
