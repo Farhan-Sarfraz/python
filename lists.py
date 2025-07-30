@@ -116,8 +116,33 @@
 
 # print(movies)
 
-names_string = input("give me the name sepereted by the comma. ")
+# names_string = input("give me the name sepereted by the comma. ")
 
-names  = names_string.split(", ")
+# names  = names_string.split(", ")
 
-print(names)
+# print(names)
+
+# list = [67,(5,32,0),65]
+# print(type(list))
+# list[4] = 6
+# print(list[:4])
+# print(list[2:])
+# print(list[2:-4])
+# print(list[-2:4])
+# # print(type(list))
+# print(list)
+# print(len(list))
+# print(list[0])
+# print(list[2])
+# list.append(56)
+# print(list)
+# list.insert(0, 9)
+# print(list)
+# list.remove(3.4)
+# print(list)
+# list.pop(1)
+# print(list)
+# values = [1,2,3,4,5,6,7]
+
+# for i in values:
+#     print(i)
